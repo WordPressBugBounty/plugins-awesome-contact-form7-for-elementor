@@ -3,7 +3,7 @@ Contributors: rafiul17, tbyte
 Donate link: https://www.paypal.com/donate?hosted_button_id=ZC2N2PY77T9HL
 Tags: Elementor, addons, contact-form, contact, contact-form-7
 Requires at least: 6.3
-Tested up to: 6.5.3
+Tested up to: 6.6.2
 Stable tag: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,6 +29,12 @@ Make a cool contact form in 5 minutes with  Awesome Contact Form7 for Elementor
 
 
 == Changelog ==
+
+= 3.1 =
+*Release Date - 10 October, 2024*
+
+ - Resolved security issue
+ - Tested on latest WordPress & Elementor
 
 = 3.0 =
 *Release Date - 23 May, 2024*

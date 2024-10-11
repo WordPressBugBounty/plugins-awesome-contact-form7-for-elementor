@@ -53,7 +53,7 @@ class AEP_Widget_Cf7 extends Widget_Base {
 	 * @return string Widget title.
 	 */
 	public function get_title() {
-		return __( 'AEP Contact Form 7', 'awesome-contact-form7-for-elementor' );
+		return __( 'Awesome Contact Form 7', 'awesome-contact-form7-for-elementor' );
 	}
 	public function get_categories() {
 		return [ 'basic' ];
@@ -165,15 +165,15 @@ class AEP_Widget_Cf7 extends Widget_Base {
 			'options' => [
 				'left'    => [
 					'title' => __( 'Left', 'awesome-contact-form7-for-elementor' ),
-					'icon' => 'fa fa-align-left',
+					'icon' => 'eicon-text-align-left',
 				],
 				'center' => [
 					'title' => __( 'Center', 'awesome-contact-form7-for-elementor' ),
-					'icon' => 'fa fa-align-center',
+					'icon' => 'eicon-text-align-center',
 				],
 				'right' => [
 					'title' => __( 'Right', 'awesome-contact-form7-for-elementor' ),
-					'icon' => 'fa fa-align-right',
+					'icon' => 'eicon-text-align-right',
 				]
 			],
 			'default' => '',
@@ -264,15 +264,15 @@ $this->end_controls_section();
 				'options' => [
 					'left'    => [
 						'title' => __( 'Left', 'awesome-contact-form7-for-elementor' ),
-						'icon' => 'fa fa-align-left',
+						'icon' => 'eicon-text-align-left',
 					],
 					'center' => [
 						'title' => __( 'Center', 'awesome-contact-form7-for-elementor' ),
-						'icon' => 'fa fa-align-center',
+						'icon' => 'eicon-text-align-center',
 					],
 					'right' => [
 						'title' => __( 'Right', 'awesome-contact-form7-for-elementor' ),
-						'icon' => 'fa fa-align-right',
+						'icon' => 'eicon-text-align-right',
 					]
 				],
 				'default' => '',
@@ -358,15 +358,15 @@ $this->end_controls_section();
 				'options' => [
 					'left'    => [
 						'title' => __( 'Left', 'awesome-contact-form7-for-elementor' ),
-						'icon' => 'fa fa-align-left',
+						'icon' => 'eicon-text-align-left',
 					],
 					'center' => [
 						'title' => __( 'Center', 'awesome-contact-form7-for-elementor' ),
-						'icon' => 'fa fa-align-center',
+						'icon' => 'eicon-text-align-center',
 					],
 					'right' => [
 						'title' => __( 'Right', 'awesome-contact-form7-for-elementor' ),
-						'icon' => 'fa fa-align-right',
+						'icon' => 'eicon-text-align-right',
 					]
 				],
 				'default' => '',
@@ -822,8 +822,7 @@ $this->end_controls_section();
 			    <div class="cf7-sub-title">
 					<?php  $settings['aep_cf7_sub_title'];?> 
 				</div>
-			<?php 
-			echo do_shortcode('[contact-form-7 id="'.$settings['aep_cf7'].'"]'); ?>    
+			<?php echo do_shortcode(force_balance_tags( wp_kses_post('[contact-form-7 id="'.$settings['aep_cf7'].'"]'))); ?>
 		   </div>
 		<?php }
 }
