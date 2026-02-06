@@ -3,12 +3,12 @@
  * Plugin Name: Awesome Contact Form7 for Elementor
  * Description: Awesome Contact Form7 for Elementor Plugin add Contact form 7 to Elementor Page builder.
  * Plugin URI: https://wordpress.org/plugins/
- * Version: 3.1
+ * Version: 3.2
  * Author: B.M. Rafiul Alam
  * Author URI: https://themesbyte.com
  * Text Domain: awesome-contact-form7-for-elementor
  * Elementor requires at least: 3.0.0
- * Elementor tested up to: 3.18.0
+ * Elementor tested up to: 3.34
  */
 if ( ! defined( 'ABSPATH' ) ) exit;
 

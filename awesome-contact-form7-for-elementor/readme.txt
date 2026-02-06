@@ -3,8 +3,8 @@ Contributors: rafiul17, tbyte
 Donate link: https://www.paypal.com/donate?hosted_button_id=ZC2N2PY77T9HL
 Tags: Elementor, addons, contact-form, contact, contact-form-7
 Requires at least: 6.3
-Tested up to: 6.6.2
-Stable tag: 3.0
+Tested up to: 6.8
+Stable tag: 3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
